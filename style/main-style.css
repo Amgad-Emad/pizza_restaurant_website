@@ -1,0 +1,575 @@
+/*general rulse*/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background-color: #242424;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+:root{
+    --main-color:#ffba00;
+    --secondary-color:#ffffff;
+}
+a{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+/* generalrulse End*/
+
+/* group1 start */
+.group1{
+    background-image: url(../images/group1.png);
+    background-size: cover;
+    height: 961px;
+}
+/* header start */
+header{
+    width: 100%;
+    display: flex;
+    height: 140px;
+    margin-bottom:400px ;
+}
+header .logo{
+    width: 20%;
+    background-color: var(--main-color);
+    display: flex;
+    margin: auto;
+    height: 80px;
+}
+header .logo p{
+    text-align: right;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+header .nav-bar{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+header .nav-bar ul{
+    display: flex;
+    list-style: none;
+    width: 75%;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    margin: auto;
+}
+header .nav-bar ul li{
+    width: 15%;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    height: 51px;
+    padding: 7px;
+    text-align: center;
+    transition:  0.3s;
+}
+header .nav-bar ul li:hover {
+    background-color: transparent;
+    border: 3px solid var(--secondary-color);
+}
+/* header end */
+
+/* section-mid start */
+.group1 section{
+    width: 100%;
+    height: 118px;
+    background-color: var(--main-color);
+    display: block;
+}
+
+.group1 section .text{
+    width: 85%;    
+    padding-top: 22PX;
+    padding-left: 150px;
+    margin: auto;
+    display: flex;
+}
+
+.group1 section .text p{
+    color: var(--secondary-color);
+    font-size: 5em;
+    line-height: 0.7;
+    text-transform: uppercase;
+}
+.group1 section .text .title p:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+.group1 section .text .title p:last-child {
+    letter-spacing: 18px;
+    font-weight: inherit;
+    font-size: 57px;
+}
+.group1 section .text span p{
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: 1px;
+    border: 3px solid var(--secondary-color);
+    padding: 10px;
+    margin-left: 60px;
+    margin-top: 75px;
+    background-color: var(--main-color);
+    cursor: pointer;
+    font-weight: 600;
+}
+/* section-mid end */
+
+/* group1 End */
+
+/* group2 start */
+.group2{
+    margin-top:80px ;
+    height:500px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    position: relative;
+}
+.group2 h2{
+    color: var(--secondary-color);
+    width: 35%;
+    margin: 35px 0 0 0;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+.group2 .shape{
+    position: absolute;
+    margin-top: 80px;
+    width: 60%;
+    height: 200px;
+    background-color: var(--main-color);
+    top: 25%;
+    right: 470px;
+    margin: auto;
+}
+.group2 .shape div h2{
+    transform: rotate(-90deg);
+    display: inline-block;
+    margin: 55px 0 0px -142px;
+    font-size: 73px;
+    font-weight: 300;
+    width: auto;
+}
+.group2 .shape p:nth-child(2){
+    margin: -116px 0 27px 133px;
+    padding-bottom: 80px;
+}
+.group2 .shape p{
+    font-family: 'Lato', sans-serif;
+    color: var(--secondary-color);
+    padding: 0 0 37px 24px;
+    font-size: 35px;
+    border-left: 4px solid;
+    margin-left: 132px;
+    height: 33px;
+    margin-top: 43px;
+}
+
+/* group2 End */
+
+/* group3 start */
+.group3{
+    height: 300px;
+    width: 100%;
+    background-color: #fff;
+    margin-top:20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.group3 ol{
+    list-style: upper-roman;
+    display: flex;
+    width: 80%;
+}
+.group3 ol li{
+    display: block;
+    padding-left: 40px;
+}
+.group3 ol span{
+    content: "";
+    width: 5px;
+    height: 22px;
+    background: var(--main-color);
+    display: inline-block;
+    margin-left: 3px;
+}
+.group3 ol h5{
+    display: inline-block;
+    vertical-align: super;
+    font-size: 24px;
+    color: var(--main-color);
+    font-weight: 800;
+    margin-left: 2px;
+    margin-bottom: 11px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.group3 ol p{
+    margin-top: 20px;
+}
+/* group3 End */
+
+/* group4 start */
+.group4{
+    background-image: url(../images/group4.png);
+    background-size: cover;
+    height: 80vw;
+}
+.group4 .group4-title{
+    color: var(--main-color);
+    text-align: center;
+    font-size: 45px;
+    padding-top: 103px;
+}
+.group4 .group4-title span:first-child{
+    margin-right: 5px;
+    font-weight: 300
+}
+.group4 .group4-title span:last-child{
+    font-family:'Montserrat', sans-serif;
+}
+.group4 .group4-text{
+    margin-top: 65px;
+    margin-left: auto;
+    color: var(--main-color);
+    font-size: 47px;
+    border: 3px solid #fff;
+    padding: 22px 0 49px 213px;
+    text-transform: uppercase;
+    width: 82%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.group4 .menu{
+    width: 72%;
+    height: 455px;
+    margin: 80px 0 0 auto;
+    background-color: var(--main-color);
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 1.9em;
+}
+.group4 .menu li{
+    padding-bottom: 35px;
+}
+.group4 .menu .menu-items, .group4 .menu .menu-salary{
+    padding-top: 7%;
+    list-style: none;
+    width: 50%;
+    padding-left: 72px;
+}
+.group4 .menu .menu-items{
+    list-style: upper-roman;
+    font-family: 'Lato', sans-serif;
+}
+.group4 .menu .menu-items h5{
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+.group4 .menu .menu-items p{
+    text-transform: lowercase;
+}
+.group4 .menu .menu-salary li{
+    width: 75px;
+    height: 140px;
+    background-color: #ffda00;
+    font-family: 'Lato', sans-serif;
+    margin-left: 129px;
+    font-weight: 800;
+    font-size: 37px;
+}
+.group4 .menu .menu-salary li:nth-child(3){
+    height: 105px;
+}
+.group4 .menu .menu-salary li:last-child{
+    background-color: #71600061;
+    height: 93px;
+    padding-top: 25px;
+}
+.group4 .menu .menu-salary li span{
+    margin-left:-20px;
+}
+.menu-box{
+    list-style:inside upper-roman;
+    color: #fff;
+    font-size: 2em;
+    border: 3px solid;
+    padding: 26px 184px;
+    margin: 9.8% 18% 17.5%;
+    font-family: 'Lato', sans-serif;
+}
+/* group4 End */
+/* group5 start */
+.group5{
+    margin: 20px auto;
+    text-align: center;
+}
+.group5-content{
+    margin: 7% auto;
+} 
+.group5-content h4{
+    font-size: 47px;
+    color: var(--main-color);
+    margin-bottom: 8px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+.group5-content h4 span{
+    font-weight: 800;
+}
+.group5-content p{
+    width: 46%;
+    margin: 21px auto;
+    line-height: 1.8;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    color: #8a8a8a;
+    font-size: 1.1em;
+}
+.group5-content ul{
+    list-style: none;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    width: 30%;
+    margin: auto;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+/* group5 End */
+/* group6 start */
+.group6{
+    background-image:url(../images/group6.png);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 83.5vw;
+    text-align: end;
+}
+.group6-content{
+    padding-top: 6%;
+    margin-right: 2%;
+}
+.group6-content h2{
+    font-size: 3em;
+    margin-bottom: 6%;
+    text-transform: uppercase;
+}
+.group6-content .first-yellow-box{
+    background-color: var(--main-color);
+    width: 46%;
+    margin-left: auto;
+    height: 43vw;
+    padding: 6%;
+}
+.group6-content .first-yellow-box p:first-child{
+    text-align: start;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+.group6-content .first-yellow-box p:nth-child(2){
+    text-align: start;
+    margin: 7% auto 11%;
+    font-size: 3em;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+.group6-content .first-yellow-box span {
+    font-size: 2.5em;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+.group6-content .first-yellow-box span span{
+    font-weight: 900;
+    font-size: 1em;
+}
+.group6-content .second-box{
+    color: #fff;
+    background-color: var(--main-color);
+    font-size: 4em;
+    margin: 8% auto;
+    width: max-content;
+    text-transform: uppercase;
+    padding: 28px 43px;
+    border-radius: 27px;
+    transition: 0.5s;
+    font-family: 'Lato', sans-serif;
+    font-weight:900 ;
+}
+.group6-content .second-box:hover{
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+}
+/* group6 End */
+/* group7-8 start */
+.group7-8{
+    position: relative;
+}
+.group7-8::after{
+    content: "";
+    width: 20%;
+    height: 75vw;
+    background-color: var(--main-color);
+    position: absolute;
+    margin-left: 18%;
+}
+/* group7 start */
+.group7-8 .group7 h2{
+    text-align: center;
+    color: var(--main-color);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 87px 0 0 0;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.group7-8 .group7 .img-gallery{
+    position: absolute;
+    top: 10vw;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+/* group7 End */
+
+/* group8 start */
+.group7-8 .group8{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    margin: auto;
+    margin-top: 46%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.group7-8 .group8 h2{
+    color: #fff;
+    font-size: 2.5em;
+    margin-bottom: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.group7-8 .group8 .group8-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.group7-8 .group8 .group8-content .information-section{
+    width: 27%;
+    font-size: 2em;
+    text-align: start;
+    color: #fff;
+    margin-left: 7%;
+    font-family: 'Lato', sans-serif;
+}
+.group7-8 .group8 .group8-content .icons-section{
+    width: 25%;
+    font-size: 1.7em;
+    color: #fff;
+    margin-left: -11%;
+    text-align: start;
+}
+.group7-8 .group8 .group8-content .icons-section span:first-child p{
+    margin-bottom: 7%;
+    font-family: 'Lato', sans-serif;
+}
+.group7-8 .group8 .group8-content .icons-section .icons span i{
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 3%;
+    color: #242424;
+
+}
+.group7-8 .group8 .group8-content .icons-section span:last-child p{
+    margin: 8% auto 5%;
+    font-family: 'Lato', sans-serif;
+}
+.group7-8 .group8 .group8-content .icons-section span:last-child a{
+    color: var(--main-color);
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+/* group8 End */
+/* group9 start */
+.group9{
+    width: 100%;
+    height: 20vw;
+    background-color: #483500;
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    top: 380vw;
+    display: flex;
+    padding: 6% 7%;
+}
+.group9 .about-section{
+    width: 50%;
+    margin-left: 5%;    
+    padding-right: 10%;
+}
+.group9 .about-section h3{
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.group9 .about-section p{
+    font-size: 1.4em;
+    font-family: 'Lato', sans-serif;
+
+}
+.group9 .content-section{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.group9 .content-section ul{
+    list-style: none;
+}
+.group9 .content-section ul li{
+    text-transform: capitalize;
+    font-size: 1.2em;
+}
+
+.group9 .content-section ul li:first-child{
+    font-size: 1.4em;
+    text-transform: uppercase;
+    margin-bottom:20px ;
+}
+/* group9 End */
+
